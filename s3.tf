@@ -1,6 +1,6 @@
 # to create random pet name
 resource "random_pet" "balaji" {
-  length    = 7
+  length    = 8
   
 
 }
