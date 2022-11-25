@@ -3,6 +3,6 @@
 # Ignore terraform dependency lock file
 .terraform.lock.hcl
 # Ignore terraform state file
-terraform.tfstate
+*.tfstate
 # Ignore terraform backup state file
-terraform.tfstate.backup
+*.tfstate.backup
