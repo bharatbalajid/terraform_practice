@@ -6,4 +6,8 @@ resource "aws_instance" "my-dev-app" {
   subnet_id       = aws_subnet.vpc-dev-public-1.id
   security_groups = [aws_security_group.dev-sg.id]
   user_data       = file("apache.sh")
+/*  count = 5
+  tags = {
+    "Name" = "web-app-${count.index}"
+  }*/
 }
